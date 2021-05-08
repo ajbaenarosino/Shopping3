@@ -178,7 +178,9 @@ Pair Index::at(int pos) {
 }
 
 void Index::print() const {
-    //
+    for (int i = 0; i < _nEntries; i++) {
+        cout << _entries[i].to_string() << endl;
+    }
 }
 
 // external functions
